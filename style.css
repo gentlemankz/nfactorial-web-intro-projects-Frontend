@@ -25,28 +25,27 @@
   src: local("Inter"), url("fonts/Kanit-Bold.woff") format("woff");
 }
 :root {
-    --primary-color: #712fff;
-    --secondary-color: rgba(8, 30, 52, 0.12);
-    --background-color: #F1F1F1;
-    --third-color: #ffffff;
-    --text-color: #000;
-    --light-text-color: rgba(0, 0, 0, 0.2);
+  --primary-color: #712fff;
+  --secondary-color: rgba(8, 30, 52, 0.12);
+  --background-color: #f1f1f1;
+  --third-color: #ffffff;
+  --text-color: #000;
+  --light-text-color: rgba(0, 0, 0, 0.2);
 
-    --heading-font-size: 54px;
-    --body-font-size: 16px;
-    --small-font-size: 14px;
+  --heading-font-size: 54px;
+  --body-font-size: 16px;
+  --small-font-size: 14px;
 
-    --paragraph-line-height: 22px;
-    
-    --button-width: 144px;
-    --button-height: 50px;
-    --button-radius: 100px;
-    --container-padding: 100px 80px;
+  --paragraph-line-height: 22px;
 
-    --font-family-secondary: "InterMedium", sans-serif;
-    --font-family-primary: "KanitBold", sans-serif;
+  --button-width: 144px;
+  --button-height: 50px;
+  --button-radius: 100px;
+  --container-padding: 100px 80px;
 
-  }
+  --font-family-secondary: "InterMedium", sans-serif;
+  --font-family-primary: "KanitBold", sans-serif;
+}
 
 body {
   background-color: var(--background-color);
@@ -151,7 +150,7 @@ body {
 .dollarImage {
   position: absolute;
   right: 43%;
-  width: 139px;
+  width: 139px; 
   height: 181px;
 }
 .fireImage {
@@ -162,11 +161,11 @@ body {
   height: 172px;
 }
 .steps {
-  width: 100%;
   height: 562px;
   background-color: #e1dee7;
   border-radius: 32px;
 }
+
 .steps-details {
   display: flex;
   align-items: center;
@@ -346,7 +345,7 @@ body {
   align-items: center;
   gap: 8rem;
   padding: 64px 80px 64px 80px;
-  background-color: var(--background-color);  
+  background-color: var(--background-color);
 }
 .cv-image-main {
   position: relative;
@@ -481,3 +480,4 @@ body {
   line-height: 18px;
   color: rgb(8, 30, 52);
 }
+
