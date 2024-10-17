@@ -95,7 +95,7 @@ body {
   text-decoration: none;
 }
 
-.description {
+.description-sub {
   display: flex;
   align-items: center;
   gap: 10rem;
@@ -276,7 +276,8 @@ body {
   width: 48px;
   height: 64px;
 }
-.search {
+
+.search-sub {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -344,6 +345,8 @@ body {
   text-align: center;
 }
 .cv-submission {
+}
+.cv-sub {
   display: flex;
   justify-content: space-around;
   align-items: center;
